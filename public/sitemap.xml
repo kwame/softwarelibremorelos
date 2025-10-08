@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://softwarelibremorelos.org/</loc>
+    <lastmod>2025-10-07T15:06:20-06:00</lastmod>
+  </url><url>
+    <loc>https://softwarelibremorelos.org/posts/nuevo-post/</loc>
+    <lastmod>2025-10-07T15:06:20-06:00</lastmod>
+  </url><url>
+    <loc>https://softwarelibremorelos.org/posts/</loc>
+    <lastmod>2025-10-07T15:06:20-06:00</lastmod>
+  </url><url>
+    <loc>https://softwarelibremorelos.org/posts/github-actions/</loc>
+    <lastmod>2025-10-07T15:05:42-06:00</lastmod>
+  </url><url>
+    <loc>https://softwarelibremorelos.org/posts/blog-workflow/</loc>
+    <lastmod>2025-10-07T15:05:01-06:00</lastmod>
+  </url><url>
+    <loc>https://softwarelibremorelos.org/categories/</loc>
+  </url><url>
+    <loc>https://softwarelibremorelos.org/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://softwarelibremorelos.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <image>
+      <title>My New Hugo Site</title>
+      <url>https://softwarelibremorelos.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://softwarelibremorelos.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Oct 2025 15:06:20 -0600</lastBuildDate>
+    <atom:link href="https://softwarelibremorelos.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nuevo Post</title>
+      <link>https://softwarelibremorelos.org/posts/nuevo-post/</link>
+      <pubDate>Tue, 07 Oct 2025 15:06:20 -0600</pubDate>
+      <guid>https://softwarelibremorelos.org/posts/nuevo-post/</guid>
+      <description>&lt;p&gt;Nuevo post&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Github Actions</title>
+      <link>https://softwarelibremorelos.org/posts/github-actions/</link>
+      <pubDate>Tue, 07 Oct 2025 15:05:42 -0600</pubDate>
+      <guid>https://softwarelibremorelos.org/posts/github-actions/</guid>
+      <description>&lt;p&gt;Now using github actions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blog Workflow</title>
+      <link>https://softwarelibremorelos.org/posts/blog-workflow/</link>
+      <pubDate>Tue, 07 Oct 2025 15:05:01 -0600</pubDate>
+      <guid>https://softwarelibremorelos.org/posts/blog-workflow/</guid>
+      <description>&lt;p&gt;Blog workflow&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
