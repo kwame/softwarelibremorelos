@@ -20,14 +20,14 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --minify
+        run: hugo
 
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Add known hosts (optional but recommended)
+      - name: Add known hosts
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
