@@ -17,15 +17,15 @@ jobs:
         run: |
           ls -R content
 
-      - name: Debug Hugo build
-        run: |
-          hugo list all
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.135.0'
           extended: true
+
+      - name: Debug Hugo build
+        run: |
+          hugo list all
 
       - name: Build site
         run: hugo
