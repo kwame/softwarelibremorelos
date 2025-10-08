@@ -1,0 +1,39 @@
+name: Deploy Hugo Blog to Remote Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.135.0'
+          extended: true
+
+      - name: Build site
+        run: hugo --minify
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add known hosts (optional but recommended)
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
+
+      - name: Deploy to remote server via rsync
+        run: |
+          rsync -avz --delete \
+            public/* \
+            infor011@shell.guardedhost.com:/webroot/i/n/infor011/softwarelibremorelos.org/www
