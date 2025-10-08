@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout source (with submodules)
         uses: actions/checkout@v4
-	with:
-	  submodules: recursive
-	  fetch-depth: 0
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Show runner time
         run: |
