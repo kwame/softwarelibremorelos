@@ -1,6 +1,6 @@
 baseURL: https://softwarelibremorelos.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Software Libre Morelos - ¡Viva ZapaTux!
 theme: ["PaperMod"]
 enableRobotsTXT: true
 buildDrafts: false
@@ -13,10 +13,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: SoftwareLibreMorelos
+  description: "Sitio dedicado a compartir información y tutoriales referentes al Software Libre"
+  keywords: [Blog, Linux, Software Libre, Debian, GNU, Open Source, México, Mexico, Morelos, Cuernavaca]
+  author: kwame@informatux.net
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -56,8 +56,8 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
+    title: SoftwareLibreMorelos
+    subtitle: "Software Libre Morelos"
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
@@ -70,8 +70,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Donde el software es de quien lo trabaja ... y lo comparte \U0001F44B"
+    Content: La tierra de ZapaTux
 
   socialIcons:
     - name: x
@@ -120,9 +120,9 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: informatux.net
+      name: informatux.net
+      url: https://informatux.net
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
