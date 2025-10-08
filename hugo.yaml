@@ -70,7 +70,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Donde el software es de quien lo trabaja ... y lo comparte \U0001F44B"
+    Title: "Donde el software es de quien lo trabaja \U0001F44B"
     Content: La tierra de ZapaTux
 
   socialIcons:
