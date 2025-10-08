@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  TZ: America/Mexico_City
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -12,6 +15,14 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
+	with:
+	  submodules: recursive
+	  fetch-depth: 0
+
+      - name: Show runner time
+        run: |
+          echo "Local time:" && date
+          echo "UTC time:" && date -u
 
       - name: List content files
         run: |
@@ -23,24 +34,27 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Debug Hugo drafts
+      - name: Hugo diagnostics
         run: |
-          hugo list drafts
-
-      - name: Debug Hugo future
-        run: |
-          hugo list future
-
-      - name: Debug Hugo expired
-        run: |
-          hugo list expired
+          hugo version
+          echo "---- drafts ----"
+          hugo list drafts || true
+          echo "---- future ----"
+          hugo list future || true
+          echo "---- expired ----"
+          hugo list expired || true
+          echo "---- all ----"
+          hugo list all | sort || true
+          echo "---- verbose build dry-run ----"
+          hugo --printI18nWarnings --printPathWarnings --log --verbose --gc --minify -s . -d public >/dev/null 2>&1 || true
 
       - name: Build site
-        run: hugo
+        run: hugo --gc --minify
 
       - name: Inspect built site
         run: |
-          ls -R public
+          test -d public && find public -maxdepth 2 -type f | sort | head -n 200
+          echo "Total files:" $(find public -type f | wc -l)
 
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.9.0
