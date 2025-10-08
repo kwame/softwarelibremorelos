@@ -23,11 +23,17 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Debug Hugo build
+      - name: Debug Hugo drafts
         run: |
           hugo list drafts
-	  hugo list future
-	  hugo list expired
+
+      - name: Debug Hugo future
+        run: |
+          hugo list future
+
+      - name: Debug Hugo expired
+        run: |
+          hugo list expired
 
       - name: Build site
         run: hugo
