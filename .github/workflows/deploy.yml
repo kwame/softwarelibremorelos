@@ -34,6 +34,6 @@ jobs:
 
       - name: Deploy to remote server via rsync
         run: |
-          rsync -avz --delete \
+          rsync -avz \
             public/* \
             infor011@shell.guardedhost.com:/webroot/i/n/infor011/softwarelibremorelos.org/www
