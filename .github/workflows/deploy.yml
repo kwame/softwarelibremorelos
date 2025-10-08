@@ -25,7 +25,7 @@ jobs:
 
       - name: Debug Hugo build
         run: |
-          hugo list all
+          hugo version
 
       - name: Build site
         run: hugo
