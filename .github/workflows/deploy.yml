@@ -25,7 +25,9 @@ jobs:
 
       - name: Debug Hugo build
         run: |
-          hugo version
+          hugo list drafts
+	  hugo list future
+	  hugo list expired
 
       - name: Build site
         run: hugo
