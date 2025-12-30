@@ -9,41 +9,66 @@
       <url>https://softwarelibremorelos.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://softwarelibremorelos.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Oct 2025 21:32:17 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 20:15:09 -0600</lastBuildDate>
     <atom:link href="https://softwarelibremorelos.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gh Actions Test</title>
-      <link>https://softwarelibremorelos.org/posts/gh-actions-test/</link>
-      <pubDate>Tue, 07 Oct 2025 21:32:17 -0600</pubDate>
-      <guid>https://softwarelibremorelos.org/posts/gh-actions-test/</guid>
-      <description>&lt;p&gt;Esto es una prueba utilizando Github Actions para hacer deployment
-Agregando una línea
-Otra linea
-Another one
-Bites the dust&lt;/p&gt;</description>
+      <title>Ya Llega El 2026</title>
+      <link>https://softwarelibremorelos.org/posts/ya-llega-el-2026/</link>
+      <pubDate>Mon, 29 Dec 2025 20:15:09 -0600</pubDate>
+      <guid>https://softwarelibremorelos.org/posts/ya-llega-el-2026/</guid>
+      <description>&lt;p&gt;Ya llega el 2026 y el panorama para Software Libre Morelos necesita cambiar.
+Este 2025 fue un año lleno de retros, demoras y problemas que necesitaban ser solucionados, afourtunadamente todos ellos fueron tratados y resueltos, eso deja camino libre para que este 2026 el enfoque sea en retomar el camino de SLM.
+Los planes incluyen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organizar una reunión bimestral&lt;/li&gt;
+&lt;li&gt;Organizar un Podcast / llamada mensual en la cuál se pueden tratar diversos temas relacionados con Open Source&lt;/li&gt;
+&lt;li&gt;Buscar la organización de un FLISOL episodio México.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para lograr esto se va a necesitar de mucha ayuda y personas dispuestas a colaborar en equipo.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Nuevo Post</title>
-      <link>https://softwarelibremorelos.org/posts/nuevo-post/</link>
-      <pubDate>Tue, 07 Oct 2025 15:06:20 -0600</pubDate>
-      <guid>https://softwarelibremorelos.org/posts/nuevo-post/</guid>
-      <description>&lt;p&gt;Nuevo post&lt;/p&gt;</description>
+      <title>Post From Linux</title>
+      <link>https://softwarelibremorelos.org/posts/post-from-linux/</link>
+      <pubDate>Wed, 08 Oct 2025 08:15:34 -0600</pubDate>
+      <guid>https://softwarelibremorelos.org/posts/post-from-linux/</guid>
+      <description>&lt;p&gt;Este post está siendo generado con hugo ejecutándose en un sistema&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    ~ ▓▒░ neofetch                                                                                         ░▒▓ ✔ 
+             ...-:::::-...                 kwame@r2d2.informatux.local 
+          .-MMMMMMMMMMMMMMM-.              --------------------------- 
+      .-MMMM`..-:::::::-..`MMMM-.          OS: Linux Mint 21.1 x86_64 
+    .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.        Host: 20HQCTO1WW ThinkPad X1 Carbon 5th 
+   -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-       Kernel: 5.15.0-157-generic 
+ `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`    Uptime: 1 day, 11 hours, 45 mins 
+ :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:    Packages: 3504 (dpkg) 
+.MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.   Shell: zsh 5.8.1 
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   Resolution: 1920x1080 
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:   DE: MATE 1.26.0 
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   WM: Metacity (Marco) 
+.MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.   Theme: Mint-Y-Dark-Orange [GTK2/3] 
+ :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:    Icons: Mint-Y-Dark-Orange [GTK2/3] 
+  :MMM:MMM:`                `:MMM:MMM:     Terminal: terminator 
+   .MMM.MMMM:--------------:MMMM.MMM.      CPU: Intel i7-7500U (4) @ 3.500GHz 
+     &amp;#39;-MMMM.-MMMMMMMMMMMMMMM-.MMMM-&amp;#39;       GPU: Intel HD Graphics 620 
+       &amp;#39;.-MMMM``--:::::--``MMMM-.&amp;#39;         Memory: 2544MiB / 15752MiB 
+            &amp;#39;-MMMMMMMMMMMMM-&amp;#39;
+               ``-:::::-``                                         
+                                                                   
+
+
+    ~ ▓▒░                                                                                                  ░▒▓ ✔ 
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
-      <title>Github Actions</title>
-      <link>https://softwarelibremorelos.org/posts/github-actions/</link>
-      <pubDate>Tue, 07 Oct 2025 15:05:42 -0600</pubDate>
-      <guid>https://softwarelibremorelos.org/posts/github-actions/</guid>
-      <description>&lt;p&gt;Now using github actions&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Blog Workflow</title>
-      <link>https://softwarelibremorelos.org/posts/blog-workflow/</link>
-      <pubDate>Tue, 07 Oct 2025 15:05:01 -0600</pubDate>
-      <guid>https://softwarelibremorelos.org/posts/blog-workflow/</guid>
-      <description>&lt;p&gt;Blog workflow&lt;/p&gt;</description>
+      <title>Software Libre Morelos Vive</title>
+      <link>https://softwarelibremorelos.org/posts/software-libre-morelos-vive/</link>
+      <pubDate>Tue, 07 Oct 2025 23:07:14 -0600</pubDate>
+      <guid>https://softwarelibremorelos.org/posts/software-libre-morelos-vive/</guid>
+      <description>&lt;p&gt;Después de una larga espera, por fin tuve pude dedicarle un tiempo a Software Libre Morelos. No tenía en claro como traer el sitio de vuelta a la vida, pero después de considerarlo creo que la mejor manera de hacerlo es convertirlo en un sitio colaborativo.
+Estoy convencido de que el conocimiento colectivo siempre es mejor que el de una sola persona, así que si deseas publicar en Software Libre Morelos mándame un mensaje para que explique como va a ser la dinámica, pero en realidad va a ser bastante sencilla.
+El sitio está creado con Hugo blog, este software es un generador de sitios estáticos, es software libre y una de sus principales características es su gran variedad de configuraciones y también por su rapidez y al no tener una base de datos como backend, se reduce el overhead de mantenimiento del sitio.
+Por el momento el código para generar el sitio está localizado en mi github personal, entonces, si gustas convertirte en un colaborador sólo tienes que:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
